@@ -8,7 +8,8 @@
     <script src="jquery.js"></script>
     <script src="jquery-ui.js"></script>
     <script src="sprint2.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
     <link rel="stylesheet" type="text/css" href="slick.css">
     <script src="slick.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -38,7 +39,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="art.html">Art</a></li>
                         <li><a href="photography.html">Photography</a></li>
-                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="aboutme.html">About Us</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
 
@@ -71,19 +72,12 @@
                       </div>
 
 
-                    <h1>Art</h1>
-                    <div >
-                        <img class="art_images art-item" src="pictures/9.png">
-                        <img class="art_images art-item" src="pictures/1.png">
-                        <img class="art_images art-item" src="pictures/8.png">
-                        <img class="art_images art-item" src="pictures/g3.png">
-                        <img class="art_images art-item" src="pictures/ka1.png">
-                        <img class="art_images art-item" src="pictures/k9.png">
-                        <img class="art_images art-item" src="pictures/6.png">
-                        <img class="art_images art-item" src="pictures/f2.jpg">
+                    <h1>Blog</h1>
+                    <div>
+                        <button id="artButton" onclick="showImages('art')">Art</button>
+                        <button id="photographyButton" onclick="showImages('photography')">Photography</button>
                     </div>
-
-                   
+                    <div id="imageContainer"></div>
                       
                 </aside>
             </div>

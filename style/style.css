@@ -228,3 +228,50 @@ button[type="submit"]:hover {
     display: none;
 }
 
+.hidden {
+    display: none;
+  }
+
+  
+  #rectangle {
+    padding-right: 20px;
+    width: 400px;
+    height: 100px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #artText {
+    padding-left: 60px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  #photoText {
+    padding-left: 100px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .black-text {
+    color: black;
+}
+
+.grey-text {
+    color: grey;
+}
+
+
+.selected-button {
+    background-color: #000;
+    color: #fff;
+}
+
+  
+  
+  
