@@ -20,24 +20,6 @@ $(document).ready(function () {
     ]
   });
 
-
-  $("#dialog").dialog();
-
-  function changeColor(elementId) {
-    var selectedText = window.getSelection().toString();
-    var element = document.getElementById(elementId);
-    
-    if (selectedText === element.innerHTML) {
-        element.classList.add("black-text");
-        element.classList.remove("grey-text");
-    } else {
-        element.classList.remove("black-text");
-        element.classList.add("grey-text");
-    }
-}
-
-
-
 window.onload = function() {
   showImages("art"); 
 };
